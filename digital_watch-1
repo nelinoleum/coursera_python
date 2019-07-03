@@ -1,0 +1,3 @@
+a = int(input())
+print((a % (24 * 60) // 60), end=' ')
+print(a % 60)
