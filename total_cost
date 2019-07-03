@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+n = int(input())
+pie_total_cost = (a * 100 + b) * n
+print(pie_total_cost // 100, pie_total_cost % 100)
