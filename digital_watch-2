@@ -1,0 +1,7 @@
+n = int(input())
+hours = ((n % (24 * 3600)) // 3600)
+minutes = ((n % (24 * 3600)) % 3600 // 60)
+seconds = ((n % (24 * 3600)) % 60)
+print(hours, end=':')
+print(minutes // 10, minutes % 10, sep='', end=':')
+print(seconds // 10, seconds % 10, sep='',)
